@@ -13,7 +13,7 @@ class RootViewController: UIViewController {
     lazy var textField: UITextField = {
         let tf = UITextField()
         tf.borderStyle = .roundedRect
-        tf.placeholder = "Type in your age..."
+        tf.placeholder = "Type in your age ..."
         tf.addTarget(self, action: #selector(handleTextChange), for: .editingChanged)
         return tf
     }()
